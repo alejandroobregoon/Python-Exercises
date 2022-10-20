@@ -49,18 +49,18 @@ pregunte al usuario la nota que ha sacado en cada asignatura y elimine
 de la lista las asignaturas aprobadas. Al final el programa debe mostrar 
 por pantalla las asignaturas que el usuario tiene que repetir."""
 
-# name = input("¿What's your name?")
-# print(f"Hello {name}")
-#
-# subjects = ["Matemáticas", "Química", "Física", "Historia", "Lengua"]
-# desaprobadas = []
-#
-# for i in subjects:
-#     score = float(input(f'¿Cuanto has sacado en {i}?: '))
-#
-#     if score <= 10:
-#         desaprobadas.append(i)
-# print(f"Has desaprobado y tienes que repetir: {desaprobadas}")
+name = input("¿What's your name?")
+print(f"Hello {name}")
+
+subjects = ["Matemáticas", "Química", "Física", "Historia", "Lengua"]
+desaprobadas = []
+
+for i in subjects:
+    score = float(input(f'¿Cuanto has sacado en {i}?: '))
+
+    if score <= 10:
+        desaprobadas.append(i)
+print(f"Has desaprobado y tienes que repetir: {desaprobadas}")
 
 ##############################################
 
